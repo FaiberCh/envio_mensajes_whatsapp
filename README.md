@@ -46,3 +46,8 @@ df = pd.DataFrame({'número': ['3123456789', '3134567890']})
 
 # Llamar a la función para enviar mensajes
 send_whatsapp_messages(df, 'número', '/ruta/al/video.mp4')
+```
+
+## Notas
+- Este script abre WhatsApp Web en tu navegador, por lo que debes asegurarte de que estés conectado y que el chat esté disponible.
+- Las coordenadas para hacer clic en los elementos de la interfaz de WhatsApp pueden necesitar ajustes según la resolución de tu pantalla.
